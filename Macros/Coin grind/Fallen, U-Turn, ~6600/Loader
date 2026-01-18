@@ -5,7 +5,7 @@ getgenv().FurTDS_Loader = {
         -- ===== LOADOUT =====
         _Maps1 = "U-Turn",
         _TowersLoadout1 = {"Electroshocker", "Cowboy", "Engineer", "Spotlight Tech", "Hacker"},
-        _StrategiesUrl1 = "https://raw.githubusercontent.com/AlexAll03/FURtds/refs/heads/main/PizzaParty",
+        _StrategiesUrl1 = "https://raw.githubusercontent.com/AlexAll03/FURtds/refs/heads/main/Macros/Coin%20grind/Fallen%2C%20U-Turn%2C%20%7E6600/Stratagy",
         _Modifiers1 = {"Glass"},
         -- ===== MAP OPTIONS =====
         _VoteMaps = true,
