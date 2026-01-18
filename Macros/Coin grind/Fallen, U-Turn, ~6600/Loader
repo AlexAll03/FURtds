@@ -1,0 +1,23 @@
+getgenv().FurTDS_Loader = {
+        -- ===== GAME MODE =====
+        _GameModes = "Fallen",
+
+        -- ===== LOADOUT =====
+        _Maps1 = "U-Turn",
+        _TowersLoadout1 = {"Electroshocker", "Cowboy", "Engineer", "Spotlight Tech", "Hacker"},
+        _StrategiesUrl1 = "https://raw.githubusercontent.com/AlexAll03/FURtds/refs/heads/main/PizzaParty",
+        _Modifiers1 = {"Glass"},
+        -- ===== MAP OPTIONS =====
+        _VoteMaps = true,
+        _VetoMap = false,
+
+        -- ===== WEBHOOK =====
+        _WebHookUrl = "",
+
+        -- ===== GAMEPLAY =====
+        _PickupItemDrop = true,
+
+        -- ===== Show (FURTDS MONITOR STRATEGY) =====
+        _DebugUi = true
+}
+loadstring(game:HttpGet("https://gitlab.com/Tyep42/td-stat/-/raw/main/Loader.lua"))()
